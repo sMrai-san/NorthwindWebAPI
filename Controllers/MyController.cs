@@ -22,7 +22,7 @@ namespace WebApi.Controllers
                 "[ROOT]/nw/Employees - Lists northwind Employees table data\n" +
                 "[ROOT]/nw/Orders - Lists northwind Orders table data\n" +
                 "[ROOT]/nw/Products.. - Lists northwind Products table data \n\n" +
-                "[ROOT]/my/mystring/ - returns a string" +
+                "[ROOT]/my/mystring/ - returns a string\n" +
                 "[ROOT]/my/myobject/ - returns an object \n" +
                 "[ROOT]/my/myobjectlist/ - returns an object list \n" +
                 "[ROOT]/my/mydate/ - returns a datetime \n";

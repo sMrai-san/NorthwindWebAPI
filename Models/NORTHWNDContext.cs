@@ -58,7 +58,7 @@ namespace WebApi.Models
                 .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
                 .AddJsonFile("appsettings.json")
                 .Build();
-                optionsBuilder.UseSqlServer(configuration.GetConnectionString("first-react-db"));
+                optionsBuilder.UseSqlServer(configuration.GetConnectionString("northwind"));
             }
         }
 
